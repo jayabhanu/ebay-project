@@ -3,8 +3,8 @@
   <groupId>com.ga</groupId>
   <artifactId>advanced-project</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Basic Project</name>
-  <description>Basic structure for automation project</description>
+  <name>Advanced Project</name>
+  <description>Basic structure for java only project</description>
   	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
