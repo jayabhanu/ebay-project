@@ -1,11 +1,11 @@
-#### Basic Project
+#### Advanced Project
 
 ### March 26, 2016
 
-A Basic Structure for Maven Projects
+A Basic Structure for automation Projects
 
 * Git
 * Java 7
 * Maven
 
-[Jean-francois Nepton](http://sqasolution.com)
+[Jayabhanu](http://salceforce.com)
