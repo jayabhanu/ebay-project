@@ -1,13 +1,14 @@
-#### Advanced Project
+#### Ebay Project
 
-### April 20, 2016
+### April 28, 2016
 
-A advanced project for automation Projects
-
+An Automation Test for EBay
 
 * Git
 * Java 7
 * Maven
-* Junit
+* Selenium
+* TestNG
+
 
 [Jayabhanu](http://salceforce.com)
