@@ -2,10 +2,7 @@
 
 ### April 20, 2016
 
-
-
 A advanced project for automation Projects
-
 
 
 * Git

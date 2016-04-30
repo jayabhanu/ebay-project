@@ -1,16 +1,19 @@
 /**
  *   File Name: RequestInputInfo.java<br>
  *
- *   Nepton, Jean-francois<br>
- *   Java Boot Camp Exercise<br>
- *   Instructor: Jean-francois Nepton<br>
+ *   Gajula Jayabhanu<br>
+
  *   Created: Mar 30, 2016
  *
  */
 
 package com.sqa.jf.util.helpers;
 
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 /**
  * RequestInputInfo //ADDD (description of class)
@@ -19,7 +22,7 @@ import org.testng.annotations.*;
  * <p>
  * //ADDD (description of core methods)
  *
- * @author Nepton, Jean-francois
+ * @author Gajula Jayabhanu
  * @version 1.0.0
  * @since 1.0
  *

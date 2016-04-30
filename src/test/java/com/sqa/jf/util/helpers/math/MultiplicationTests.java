@@ -1,22 +1,22 @@
 /**
  *   File Name: MyMathTests.java<br>
  *
- *   Nepton, Jean-francois<br>
- *   Java Boot Camp Exercise<br>
- *   Instructor: Jean-francois Nepton<br>
+ *   Gajula Jayabhanu<br>
+
  *   Created: Apr 13, 2016
  *
  */
 
 package com.sqa.jf.util.helpers.math;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
-import java.util.*;
+import java.util.Arrays;
 
-import org.testng.annotations.*;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
-import com.sqa.jf.util.helpers.*;
+import com.sqa.jf.util.helpers.MyMath;
 
 /**
  * MyMathTests //ADDD (description of class)
@@ -25,11 +25,14 @@ import com.sqa.jf.util.helpers.*;
  * <p>
  * //ADDD (description of core methods)
  *
- * @author Nepton, Jean-francois
+ * @author Gajula Jayabhanu
  * @version 1.0.0
  * @since 1.0
  *
  */
+
+// @RunWith(Parameterized.class)
+
 public class MultiplicationTests {
 
 	@DataProvider(name = "Multiplication Data")
@@ -50,7 +53,12 @@ public class MultiplicationTests {
 		String message = String.format("The result of multiplying all numbers %s " + " is %.2f.", numbersString,
 				actualResult);
 		System.out.println(message);
+
 		// TestNG PArams: Actual, Expected, Delta, Message
 		assertEquals(actualResult, expectedResult, 1, errorMessage);
+
+		// Assert.assertEquals(errorMessage, this.expectedResult, actualResult,
+		// 2);
+
 	}
 }

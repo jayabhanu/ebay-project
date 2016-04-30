@@ -1,20 +1,20 @@
 /**
  *   File Name: MyMathTests.java<br>
  *
- *   Nepton, Jean-francois<br>
- *   Java Boot Camp Exercise<br>
- *   Instructor: Jean-francois Nepton<br>
+ *   Gajula Jayabhanu<br>
+
  *   Created: Apr 13, 2016
  *
  */
 
 package com.sqa.jf.util.helpers.math;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
-import org.testng.annotations.*;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
-import com.sqa.jf.util.helpers.*;
+import com.sqa.jf.util.helpers.MyMath;
 
 /**
  * MyMathTests //ADDD (description of class)
@@ -23,11 +23,13 @@ import com.sqa.jf.util.helpers.*;
  * <p>
  * //ADDD (description of core methods)
  *
- * @author Nepton, Jean-francois
+ * @author Gajula Jayabhanu
  * @version 1.0.0
  * @since 1.0
  *
  */
+
+// @RunWith(value = Parameterized.class)
 
 public class PowerTests {
 
@@ -44,8 +46,11 @@ public class PowerTests {
 		actualResult = MyMath.powerNumber(num, power);
 		String message = String.format("The result of %.0f to the power of %.0f is %.0f", num, power, actualResult);
 		System.out.println(message);
+
 		// TestNG PArams: Actual, Expected, Delta, Message
 		assertEquals(actualResult, expectedResult, 0, message);
+
+		// Assert.assertEquals(message, expectedResult, actualResult, 0);
 
 	}
 }
