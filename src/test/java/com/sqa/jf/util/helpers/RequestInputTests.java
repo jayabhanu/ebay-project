@@ -1,9 +1,8 @@
 /**
  *   File Name: RequestInputTests.java<br>
  *
- *   Nepton, Jean-francois<br>
- *   Java Boot Camp Exercise<br>
- *   Instructor: Jean-francois Nepton<br>
+ *   Gajula Jayabhanu<br>
+
  *   Created: Mar 30, 2016
  *
  */
@@ -25,7 +24,7 @@ import org.testng.annotations.Test;
  * <p>
  * //ADDD (description of core methods)
  *
- * @author Nepton, Jean-francois
+ * @author Gajula Jayabhanu
  * @version 1.0.0
  * @since 1.0
  *
